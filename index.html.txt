@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natelina Dirar | Decor Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #a37ba7;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #a37ba7;
+      padding-bottom: 0.5rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Natelina Dirar</h1>
+    <p>Decor Portfolio</p>
+  </header>
+
+  <main>
+    <h2>My Work</h2>
+    <div class="gallery">
+      <!-- Replace the src URLs below with links to your images -->
+      <img src="https://via.placeholder.com/300x200.png?text=Decor+1" alt="Decor 1">
+      <img src="https://via.placeholder.com/300x200.png?text=Decor+2" alt="Decor 2">
+      <img src="https://via.placeholder.com/300x200.png?text=Decor+3" alt="Decor 3">
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact: dirarnatelina@gmail.com | 206-434-7396 | Washington</p>
+  </footer>
+
+</body>
+</html>
